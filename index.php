@@ -17,7 +17,7 @@
             <strong>APPLICATION DEVELOPMENT</strong> 
             for this academic year 2021-2022 during second semester. 
         </p>
-        <a class="insert" href="../midterm/insert.php">Add News Article</a>
+        <a class="insert" href="./insert.php">Add News Article</a>
         <div class="clip_bg"></div>
         <div class="data_container">
         <?php foreach ($news as $result): ?>

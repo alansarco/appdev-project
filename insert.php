@@ -6,7 +6,7 @@
     <section>
         <h1 class="insert_h1">HEADLINE PILIPINAS</h1>
         <h2>Add News Article</h2>
-        <a class="insert" href="../midterm/index.php">Home</a>
+        <a class="insert" href="./index.php">Home</a>
         <?php
             //include connection.php to provide connection
             include 'connect.php';
