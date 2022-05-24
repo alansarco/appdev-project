@@ -1,0 +1,168 @@
+/* CSS for Web Styling */
+:root {
+    --dark: #1f1f1f;
+    --darker: #171717;
+    --white: #dddddd;
+    --whiter: #eeeeee;
+    --pink: #ffc0c5;
+    --blue: #93aaf7;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;         
+    text-align: center;
+    background: var(--dark);
+    color: var(--whiter);
+}
+section {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+}
+h1 {
+    margin-top: 0rem;
+    color: var(--dark);
+    font-size: 4rem;
+    letter-spacing: 10px;
+    background-color: var(--pink);
+}
+h2 {
+    color: var(--pink);
+    margin-top: -2.5rem; 
+    font-size: 1.2rem;
+}
+.link, .insert {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--dark);
+    padding: 0.5rem 3rem;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: var(--pink);
+    margin-top: 0.5rem;
+}
+.link {
+    background-color: transparent;
+    color: var(--pink);
+    margin: -2rem 1rem;
+    padding: 0;
+}
+section p {
+    font-size: 0.8rem;
+    background-color: #1f1f1f50;
+    backdrop-filter: blur(2px);
+    max-width: 750px;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.data_container {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+.container {
+    text-align: left;
+    padding: 1.2rem 3rem;
+    box-shadow: 0 0 2px 0 grey;
+    background-color: var(--dark);
+    transition: all 0.2s ease-in;
+}
+.container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 7px 0 grey;
+}
+.clip_bg {
+    clip-path: polygon(30% 0, 7% 50%, 30% 100%, 0 100%, 0% 50%, 0 0);
+    background-color: var(--pink);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+}
+a {
+    color: var(--pink);
+}
+h4, h5{
+    display: inline-block;
+    font-size: 0.7rem;
+    color: var(--whiter);
+}
+h5, h6 {
+    font-weight: normal;
+}
+h6 {
+    margin-top: 0rem;
+    height: 75px;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    overflow: hidden;
+    font-size: 0.9rem;
+}
+.actions {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: right;
+}
+button {
+    font-size: 1.2rem;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: crimson;
+}
+.update {
+    color: var(--blue);
+}
+
+/* Update.php CSS Extension*/
+.form {
+    text-align: left;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem auto;
+    padding: 1.5rem 2.5rem;
+    box-shadow: 0 0 3px 0 grey;
+    background-color: var(--dark);
+}
+label {
+    color: var(--pink);
+}
+input, textarea {
+    margin: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background-color: var(--darker);
+    color: var(--whiter);
+    border-radius: 25px;
+}
+textarea {
+    resize: vertical;
+}
+.button {
+    background-color: var(--pink);
+    cursor: pointer;
+    padding: 0.7rem; 
+    color: var(--dark);
+    border-radius: 25px;
+}
+.input_division {
+    display: flex;
+}
+.input_division > * {
+    flex: 1;
+}
+span {
+    color: var(--blue);
+    font-size: 0.8rem;
+}
