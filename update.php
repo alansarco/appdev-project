@@ -6,7 +6,7 @@
     <section>
         <h1 class="update_h1">HEADLINE PILIPINAS</h1>
         <h2>Update News Article</h2>
-        <a class="insert" href="../midterm/index.php">Home</a>
+        <a class="insert" href="./index.php">Home</a>
         <div class="clip_bg"></div>
         <?php            
         //retrieve data
